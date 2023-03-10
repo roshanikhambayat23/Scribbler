@@ -1,0 +1,66 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+
+/* ****** Create modal ************* */
+
+
+#modalContent {
+    background-color: #fefefe;
+    margin:  auto;
+    /* 15% from the top and centered */
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+    
+    
+}
+#modalContent input, .contentArea {
+    padding: 10px;
+    margin:10px auto;
+    width: 97%;;
+    border: none;
+    background: #dee2e6;
+}
+#modalContent .contentArea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    resize: none;
+}
+#modalContent .createBtn {
+    width: 10%;
+    border: none;
+    background: #55a505c4;
+    border: none;
+    padding: 10px;
+    margin: 15px auto;
+    font-size: large;
+    color: #fff;
+}
+
+/*  *********** CONTAINER SECTION ************/
+.container {
+    display: flex;
+    justify-content: center;
+   flex-grow: 1;
+   align-items: center;
+    text-align: center;
+}
+.postBtn {
+    background-color: #edc531;
+    border: none;
+    padding: 10px;
+    margin: 7px;
+    width: 140px;
+    box-shadow: 0px 0px 2px 4px #999;
+    font-size: 1.2rem;
+    border-radius: 2px
+}
+
